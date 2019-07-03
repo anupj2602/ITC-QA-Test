@@ -1,0 +1,36 @@
+{
+  "name": "1.0",
+  "version": "1.0.0",
+  "description": "Test for ITC",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor js-output-files/config.js",
+    "pretest": "tsc",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update",
+    "webdriver-start": "./node_modules/.bin/webdriver-manager start",
+    "smoke-automation-suite": "protractor js-output-files/config.js --suite Smoke"
+  },
+  "author": "Anup J",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "3.3.9",
+    "@types/jasminewd2": "2.0.6",
+    "@types/node": "11.9.5",
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "jasmine": "3.3.1",
+    "jasmine-data-provider": "2.2.0",
+    "log4js": "4.3.0",
+    "protractor": "5.4.1",
+    "protractor-beautiful-reporter": "1.2.7",
+    "protractor-html-reporter-2": "1.0.4",
+    "protractor-jasmine2-html-reporter": "0.0.7",
+    "protractor-jasmine2-parallel-html-reporter": "1.0.0",
+    "ts-node": "8.0.2",
+    "typescript": "3.3.3333"
+  },
+  "devDependencies": {
+    "webdriver-manager": "^12.1.2"
+  }
+}

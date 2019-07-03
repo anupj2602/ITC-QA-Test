@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const protractor_1 = require("protractor");
+class loginPagePE {
+}
+loginPagePE.emailAddressTextBox = protractor_1.element(protractor_1.by.id("email"));
+loginPagePE.passwordTextBox = protractor_1.element(protractor_1.by.id("passwd"));
+loginPagePE.submitButton = protractor_1.element(protractor_1.by.id("SubmitLogin"));
+exports.loginPagePE = loginPagePE;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibG9naW4tcGFnZS1lbGVtZW50cy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3BhZ2Utb2JqZWN0cy9sb2dpbi1wYWdlLWVsZW1lbnRzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsMkNBQXVDO0FBRXZDLE1BQWEsV0FBVzs7QUFFTiwrQkFBbUIsR0FBUSxvQkFBTyxDQUFDLGVBQUUsQ0FBQyxFQUFFLENBQUMsT0FBTyxDQUFDLENBQUMsQ0FBQztBQUNuRCwyQkFBZSxHQUFZLG9CQUFPLENBQUMsZUFBRSxDQUFDLEVBQUUsQ0FBQyxRQUFRLENBQUMsQ0FBQyxDQUFDO0FBQ3BELHdCQUFZLEdBQWUsb0JBQU8sQ0FBQyxlQUFFLENBQUMsRUFBRSxDQUFDLGFBQWEsQ0FBQyxDQUFDLENBQUM7QUFKM0Usa0NBS0MifQ==
